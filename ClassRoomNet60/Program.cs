@@ -18,3 +18,10 @@ foreach (var studerende in minKlasse.Klasseliste)
 {
     Console.WriteLine($"- {studerende.Navn} (fødselsdag: {studerende.Fødselsdag}/{studerende.Fødsesldagsmåned})");
 }
+
+Console.WriteLine();
+
+foreach (var studerende in minKlasse.Klasseliste)
+{
+    Console.WriteLine($"{studerende.Navn} har fødselsdag ved årstiden: {studerende.årstid()}");
+}
