@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.9.12112.369 stable
+VisualStudioVersion = 18.9.12112.369
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassRoomNet60", "ClassRoomNet60\ClassRoomNet60.csproj", "{1F346B5E-758B-4097-B1A1-1621897D1AFF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassroomTest", "ClassroomTest\ClassroomTest.csproj", "{9B760EBB-FED6-40E9-8863-2CDE505EAC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XunitTest", "XunitTest\XunitTest.csproj", "{8DA2CECA-1AFA-4E3C-8F46-05C3628891EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9B760EBB-FED6-40E9-8863-2CDE505EAC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B760EBB-FED6-40E9-8863-2CDE505EAC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B760EBB-FED6-40E9-8863-2CDE505EAC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA2CECA-1AFA-4E3C-8F46-05C3628891EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA2CECA-1AFA-4E3C-8F46-05C3628891EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA2CECA-1AFA-4E3C-8F46-05C3628891EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA2CECA-1AFA-4E3C-8F46-05C3628891EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

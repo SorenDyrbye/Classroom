@@ -1,16 +1,13 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ClassRoomNet60;
+﻿using ClassRoomNet60;
 
 namespace ClassroomTest
 {
     [TestClass]
     public sealed class Test1
     {
-      
         [DataTestMethod]
         [DataRow("Christian", 12, 12, "Vinter")]
-        [DataRow("Rasmus", 7, 7, "Sommer")]
-        
+        [DataRow("Rasmus", 7, 31, "Sommer")]
 
         public void TestÅrstid(string navn, int fødselsmåned, int fødselsdag, string forventetÅrstid)
         {
